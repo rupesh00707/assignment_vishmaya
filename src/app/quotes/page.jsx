@@ -46,7 +46,7 @@ export default function QuotesPage() {
             });
 
         } catch (error) {
-            alert(error.message);
+            // alert(error.message);
         } finally {
             setLoading(false);
         }

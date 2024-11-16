@@ -5,7 +5,7 @@ export default function QuoteCard({ quote }) {
         <div className="relative bg-white rounded-lg shadow-md overflow-hidden">
             <div className="relative">
                 <img
-                    src={mediaUrl}
+                    src={mediaUrl ? mediaUrl : null}
                     alt="Quote Image"
                     className="w-full h-48 object-cover"
                 />
